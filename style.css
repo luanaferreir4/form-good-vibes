@@ -1,0 +1,75 @@
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+body {
+    background-color:darkmagenta;
+}
+
+.container form {
+    background-color: darkgrey;
+    max-width: 700px;
+    padding: 30px;
+    border-radius: 8px;
+    font-size: medium;
+}
+
+.simple-title, .form-positive-msg {
+    padding: 25px 0;
+}
+
+form label {
+    padding: 10px 0;
+}
+
+.header .title {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    font-family: 'Helvetica', sans-serif;
+    color: white;
+}
+
+form #name {
+    width: 90%;
+}
+
+form #email {
+    width: 90.5%;
+}
+
+form #mood-scale {
+    width: 10%;
+}
+
+form #where {
+    width: 28%;
+}
+
+form #textarea-main {
+    display: flex;
+    align-items: flex-start;
+}
+
+form #text-area {
+    width: 80%;
+}
+
+form #btn {
+    width: 50%;
+    height: 35px;
+    background-color: goldenrod;
+    color: white;
+    display: flex;
+    justify-content: center;
+    border: none;
+    border-radius: 5px;
+}
+
+form #btn:hover {
+    background-color: darkgoldenrod;
+
+}
